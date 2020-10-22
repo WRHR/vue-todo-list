@@ -8,10 +8,8 @@
 
 <script>
 import axios from 'axios'
-
 import Todos from '../components/Todos'
 import AddTodo from '../components/AddTodo'
-
 
 export default {
   name: 'Home',
