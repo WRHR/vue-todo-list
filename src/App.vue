@@ -1,19 +1,19 @@
 <template>
   <div id="app">
     <Header />
-    <router-view/>
+    <router-view />
   </div>
 </template>
 
 <script>
-import Header from './components/layout/Header'
+import Header from "./components/layout/Header";
 
 export default {
-  name: 'app',
+  name: "app",
   components: {
     Header
   }
-}
+};
 </script>
 
 <style>
@@ -24,5 +24,4 @@ export default {
   text-align: center;
   color: #2c3e50;
 }
-
 </style>
